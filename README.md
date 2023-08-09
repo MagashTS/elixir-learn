@@ -1,21 +1,28 @@
-# MagElixir
 
-**TODO: Add description**
+# Test info
 
-## Installation
+Question 1 
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `mag_elixir` to your list of dependencies in `mix.exs`:
+There are 5 question.
+You have to write a doc test, fix some some code and write a new test.
 
-```elixir
-def deps do
-  [
-    {:mag_elixir, "~> 0.1.0"}
-  ]
-end
+
+Q1 (10) - Environment check - VS code working with WSL and git 
+
+Q1.1 (10) Please write doc test for the function ```hello({:ok, binary})```
+
+Q1.2 (10) fix test "Q1 greets the world" <br>
+Q1.3 (10) write test "Q1 greets the person" <br>
+Q1.4 (10) change the function hello to make this test "Q1 greets number errors" pass <br>
+
+The target output will look like below
+ there are 2 doc tests and 3 ExUnit tests all passing 
 ```
+mags@Magash-Dell-2019:~/mag_elixir$ mix test
+.....
+Finished in 0.06 seconds (0.00s async, 0.06s sync)
+2 doctests, 3 tests, 0 failures
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/mag_elixir>.
+Randomized with seed 743928
+```
 

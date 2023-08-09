@@ -1,16 +1,16 @@
-defmodule MagElixirTest do
+defmodule MagElixirTests do
   use ExUnit.Case
-  doctest MagElixir
+  doctest MagElixirANS
 
   test "greets the world" do
-    assert MagElixir.hello() == :world
+    assert MagElixirANS.hello() == :world
   end
 
   test "greets the person" do
-    assert MagElixir.hello({:ok, "Mag"}) == "Mag hello"
+    assert MagElixirANS.hello({:ok, "Mag"}) == "Mag hello"
   end
 
   test "greets number errors" do
-    assert MagElixir.hello({:ok, 1}) == {:error}
+    assert MagElixirANS.hello({:ok, 1}) == {:error}
   end
 end

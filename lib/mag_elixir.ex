@@ -1,6 +1,6 @@
-defmodule MagElixir do
+defmodule MagElixirANS do
   @moduledoc """
-  Documentation for `MagElixir`.
+  Documentation for `MagElixirANS`.
   """
 
   @spec hello :: :world
@@ -9,7 +9,7 @@ defmodule MagElixir do
 
   ## Examples
 
-      iex> MagElixir.hello()
+      iex> MagElixirANS.hello()
       :world
 
   """
@@ -23,7 +23,7 @@ defmodule MagElixir do
   @doc """
   ## Examples
 
-      iex> MagElixir.hello({:ok, "Mag"})
+      iex> MagElixirANS.hello({:ok, "Mag"})
       "Mag hello"
 
 
