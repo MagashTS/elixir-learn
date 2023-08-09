@@ -10,7 +10,7 @@ defmodule MagElixirTest do
     assert MagElixir.hello({:ok, "Mag"}) == "Mag hello"
   end
 
-  test "greets number error" do
+  test "greets number errors" do
     assert MagElixir.hello({:ok, 1}) == {:error}
   end
 end
