@@ -5,7 +5,7 @@ defmodule Question1 do
 
   @spec hello :: :world
   @doc """
-  Hello world.
+  Hello worlds.
 
   ## Examples
 
