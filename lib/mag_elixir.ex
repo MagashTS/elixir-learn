@@ -28,7 +28,7 @@ defmodule MagElixirANS do
 
 
   """
-  def hello{:ok, b} do
+  def hello{:ok, b}  do
    case  is_bitstring(b) do
       :true -> b <> " hello"
       :false -> {:error}
