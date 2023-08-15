@@ -23,10 +23,15 @@ defmodule Question1 do
   @doc """
 
   # Q1.1 -(10) Please write doc test
+
+  ## Examples
+      iex> Question1.hello({:ok,"mags"})
+      "mags hello"
   """
   def hello{:ok, b} do
-  #when b is a string
-    b <> " hello"
-  #when not {:error}
+    case  is_bitstring(b) do
+      :true -> b <> " hello"
+      :false -> {:error}
+    end
   end
 end
