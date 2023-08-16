@@ -1,6 +1,6 @@
 defmodule Question1 do
   @moduledoc """
-  Documentation for `Question1.111`.
+  Documentation for `Question1.`.
   """
 
   @spec hello :: :world
